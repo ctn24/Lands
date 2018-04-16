@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  lands.ios:
+    image: landsios
+    build:
+      context: .\Lands\Lands.iOS
+      dockerfile: Dockerfile

@@ -13,6 +13,7 @@
     <AssemblyName>Lands.iOS</AssemblyName>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <DockerComposeProjectPath>..\..\docker-compose.dcproj</DockerComposeProjectPath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
     <DebugSymbols>true</DebugSymbols>
@@ -127,5 +128,8 @@
       <Project>{2F2CF151-69AC-4B6E-A986-CF88E796693D}</Project>
       <Name>Lands</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Logo.png" />
   </ItemGroup>
 </Project>
