@@ -46,12 +46,30 @@
                     Placeholder="Enter your password...">
                 </Entry>
             </Grid>
+            <StackLayout
+                Orientation="Horizontal">
+            <Label
+                HorizontalOptions="StartAndExpand"
+                Text="Remember me on this device">
+            </Label>
+            <Switch
+                HorizontalOptions="End">
+            </Switch>
+            </StackLayout>
             <ActivityIndicator>
             </ActivityIndicator>
             <Button
                 BackgroundColor="Navy"
                 BorderRadius="23"
+                HeightRequest="46"
                 Text="Login"
+                TextColor="White">
+            </Button>
+            <Button
+                BackgroundColor="Navy"
+                BorderRadius="23"
+                HeightRequest="46"
+                Text="Register"
                 TextColor="White">
             </Button>
         </StackLayout>
